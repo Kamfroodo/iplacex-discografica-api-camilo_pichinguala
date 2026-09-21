@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:8080/api/artistas
+description: ""
+url: http://localhost:8080/api/artistas
+method: GET
+order: 4402140596416319

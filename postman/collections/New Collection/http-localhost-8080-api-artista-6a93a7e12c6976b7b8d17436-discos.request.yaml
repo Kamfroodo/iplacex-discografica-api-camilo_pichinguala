@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:8080/api/artista/6a93a7e12c6976b7b8d17436/discos
+description: ""
+url: http://localhost:8080/api/artista/6a93a8102c6976b7b8d17437/discos
+method: GET
+order: 4500919650393373

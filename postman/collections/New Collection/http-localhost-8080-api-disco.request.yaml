@@ -1,0 +1,31 @@
+$kind: http-request
+name: http://localhost:8080/api/disco
+description: ""
+url: http://localhost:8080/api/disco
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"idArtista\": \"6a93a8102c6976b7b8d17437\",\r
+
+    \    \"nombre\": \"In Rainbows\",\r
+
+    \    \"anioLanzamiento\": 2007,\r
+
+    \    \"canciones\": [\r
+
+    \        \"15 Step\",\r
+
+    \        \"Bodysnatchers\",\r
+
+    \        \"Nude\",\r
+
+    \        \"House of Cards\"\r
+
+    \    ]\r
+
+    }"
+order: 4460590161341906

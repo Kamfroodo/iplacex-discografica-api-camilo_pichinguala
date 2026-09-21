@@ -1,0 +1,31 @@
+$kind: http-request
+name: http://localhost:8080/api/disco
+description: ""
+url: http://localhost:8080/api/disco
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"idArtista\": \"6a93a8102c6976b7b8d17437\",\r
+
+    \    \"nombre\": \"OK Computer\",\r
+
+    \    \"anioLanzamiento\": 1997,\r
+
+    \    \"canciones\": [\r
+
+    \        \"Paranoid Android\",\r
+
+    \        \"Karma Police\",\r
+
+    \        \"No Surprises\",\r
+
+    \        \"Exit Music (For a Film)\"\r
+
+    \    ]\r
+
+    }"
+order: 4503190778701710

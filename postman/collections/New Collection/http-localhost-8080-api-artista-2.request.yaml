@@ -1,0 +1,21 @@
+$kind: http-request
+name: http://localhost:8080/api/artista
+description: ""
+url: http://localhost:8080/api/artista
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"nombre\": \"Queen\",\r
+
+    \    \"estilos\": [\"Rock\", \"Opera\", \"Glam Rock\"],\r
+
+    \    \"anioFundacion\": 1970,\r
+
+    \    \"estaActivo\": false\r
+
+    }"
+order: 4222320241129641
