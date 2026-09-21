@@ -5,7 +5,7 @@ COPY . .
 RUN gradle build -x test
 
 # STAGE 2: Ejecución utilizando openjdk
-FROM openjdk:21
+FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY --from=build /app/build/libs/discografia-1.jar .
 EXPOSE 8080
